@@ -1,7 +1,8 @@
 {
     "full_name": "Your name",
     "email": "Your address email (eq. you@example.com)",
-    "github_username": "Your github username",
+    "owner_github_username": "Your github username (eg. yamad07)",
+    "organization_name": "ispec-inc",
     "project_name": "Name of the project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "project_short_description": "A short description of the project",
