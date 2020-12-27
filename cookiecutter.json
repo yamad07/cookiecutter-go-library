@@ -7,5 +7,6 @@
     "project_short_description": "A short description of the project",
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",
+    "base_pkg (absolute path)": "",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
