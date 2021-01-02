@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: Go Library
+  name: go-pkg
   title: Go Package
   description: |
     Template Project for Go Package
