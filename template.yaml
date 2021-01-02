@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: Go Library
+  title: Go Package
+  description: |
+    Template Project for Go Package
+  tags:
+    - pkg
+    - golang
+spec:
+  type: api
+  owner: yamad07
+  lifecycle: experimental
+  templater: cookiecutter
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - description
+      - project_name
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Description of the component
+      project_name:
+        title: Name
+        type: string
+        description: Name of the component

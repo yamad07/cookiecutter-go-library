@@ -1,13 +1,13 @@
 {
     "full_name": "Your name",
     "email": "Your address email (eq. you@example.com)",
-    "owner_github_username": "Your github username (eg. yamad07)",
-    "organization_name": "ispec-inc",
-    "project_name": "Name of the project",
+    "compnent_id": "",
+    "description": "",
+    "owner": "",
+    "project_name": "{{ cookiecutter.component_id }}",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "project_short_description": "A short description of the project",
+    "project_short_description": "{{cookiecutter.project_name}}",
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",
-    "base_pkg (absolute path)": "",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
