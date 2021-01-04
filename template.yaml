@@ -9,7 +9,7 @@ metadata:
     - pkg
     - golang
 spec:
-  type: api
+  type: service
   owner: yamad07
   lifecycle: experimental
   templater: cookiecutter
