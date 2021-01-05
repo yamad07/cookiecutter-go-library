@@ -18,17 +18,12 @@ spec:
     required:
       - component_id
       - description
-      - project_name
     properties:
       component_id:
-        title: Name
+        title: Component Name
         type: string
         description: Unique name of the component
       description:
         title: Description
         type: string
         description: Description of the component
-      project_name:
-        title: Name
-        type: string
-        description: Name of the component
